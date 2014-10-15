@@ -1,5 +1,21 @@
+# BIOMD0000000051: Chassagnole2002_Carbon_Metabolism
+
+## Installation
+
+Download this repository, and run install with distutils
+
+`python setup.py install`
+
+Or, install using pip
+
+`pip install git+https://github.com/biomodels/BIOMD0000000051.git`
+
+To install a specific version (from the 2014-09-16 release in this example)
+
+`pip install git+https://github.com/biomodels/BIOMD0000000051.git@20140916`
 
 
+# Model Notes
 The model reproduces Figures 4,5 and 6 of the publication. The analytical
 functions for cometabolites Catp, Camp, Cnadph, and Cnadp slightly differ from
 the equations given in the paper. These changes were made in consultation with
@@ -40,4 +56,5 @@ Dharuri H, Endler L, Chelliah V, Li L, He E, Henry A, Stefan MI, Snoep JL,
 Hucka M, Le Novère N, Laibe C (2010) BioModels Database: An enhanced, curated
 and annotated resource for published quantitative kinetic models. BMC Syst
 Biol., 4:92.](http://www.ncbi.nlm.nih.gov/pubmed/20587024)
+
 
